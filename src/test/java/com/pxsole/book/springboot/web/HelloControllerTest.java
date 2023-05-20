@@ -1,4 +1,4 @@
-package com.pxtwo.book.springboot.web;
+package com.pxsole.book.springboot.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

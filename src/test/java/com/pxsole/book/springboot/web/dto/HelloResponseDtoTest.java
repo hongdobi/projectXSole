@@ -1,4 +1,4 @@
-package com.pxtwo.book.springboot.web.dto;
+package com.pxsole.book.springboot.web.dto;
 
 
 import org.junit.Test;
