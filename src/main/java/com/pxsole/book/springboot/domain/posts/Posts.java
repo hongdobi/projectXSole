@@ -1,5 +1,6 @@
 package com.pxsole.book.springboot.domain.posts;
 
+import com.pxsole.book.springboot.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,7 +18,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     //@GeneratedValue 는 PK의 생성규칙을 나타냄
     //GenerationType.IDENTITY 를 추가해야만 auto_increment 가 됨

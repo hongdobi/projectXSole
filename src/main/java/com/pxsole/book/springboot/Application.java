@@ -2,9 +2,11 @@ package com.pxsole.book.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 //@SpringBootApplication 은 Bean 읽기와 생성을 포함한 스프링부트의 자동설정을 가능하게 해줌
 //이 위치부터 설정을 읽어가기 때문에 항상 프로젝트 최상단에 위치해야함 (main 메소드)
+@EnableJpaAuditing  //JPA Auditing 활성화
 @SpringBootApplication
 public class Application {
 
